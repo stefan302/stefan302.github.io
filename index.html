@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link
+      href="https://fonts.googleapis.com/css?family = oswald"
+      rel="stylesheet"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="header">
+      <h1>Stefan Martincevic Portfolio</h1>
+    </div>
+
+    <div class="tab">
+      <button
+        class="tablinks"
+        onclick="openTab(event, 'AboutTab')"
+        id="defaultOpen"
+      >
+        About
+      </button>
+      <button class="tablinks" onclick="openTab(event, 'ModulesTab')">
+        Modules
+      </button>
+      <button class="tablinks" onclick="openTab(event, 'ProjectsTab')">
+        Projects
+      </button>
+    </div>
+
+    <div id="AboutTab" class="tabcontent">
+      <h1 class="underlined">2022 Portfolio About</h1>
+      <p class="about">
+        Welcome to my portfolio. This portfolio demonstrates all of the learning
+        that I have done for the ICS4-U course and A.Y. Jackson Secondary
+        school. Feel free to look around my websites to learn more about my code
+        and projects that I have completed this year. When you press on the tabs
+        you can see what modules I completed this semester. I each module there
+        is one project that is the most meaningfull to my education that I chose
+        to showcase.
+      </p>
+      
+    </div>
+
+    <div id="ModulesTab" class="tabcontent">
+      <h1 class="underlined">2022 Portfolio Modules</h1>
+      <table style="width: 100%">
+        <tr>
+          <th style="width: 50%">
+            <h2>AP®︎/College Computer Science Principles: Programming</h2>
+          </th>
+          <th style="width: 50%">
+            <h2>Intro to JavaScript</h2>
+          </th>
+        </tr>
+        <tr>
+          <td style="vertical-align: top">
+            <p>
+              This module is an important baseline to have for learning JS by
+              showing what programming is and the importance of pseudocode. It
+              demonstrates the use of aspects like strings, conditional
+              statements, logical equivalence and procedures that can be used to
+              create repetition in code and lists with the help of math and
+              variables. The biggest impact this module had on me was that it
+              gave me a baseline and showed me the similarities and differences
+              from C++ which I had learnt in grade 11. I can continue to learn
+              by building on these basic concepts in order to create more
+              complex projects by combining them together, learning more complex
+              aspects like object oriented programming by making sure I use them
+              as an everyday habit when coding.
+            </p>           
+          </td>
+          <td style="vertical-align: top">
+            <p>
+              This module is an important aspect for getting a foundation in JS
+              and is an extension for more complex projects from the
+              ‘AP®︎/College Computer Science Principles Programming’ module. It
+              teaches important aspects such as, conditionals, functions, scope,
+              arrays, loops, iterators and object oriented programming. Object
+              oriented programming is what I found most impactful, because it
+              allows for an expandable program to be created with classes in
+              order to modify the functions of variables that are contained in
+              the specific class. I can continue to learn from this course by
+              incorporating object oriented programming as an everyday habit,
+              create refactorings on the projects of others in order to use
+              object oriented programming to expand their project and continue
+              to use important programming practices by developing more
+              complexly structured projects. Also, it is important for me to
+              continue to develop my JS abilities through other languages that
+              can easily be learnt after JS like TypeScript or to continue using
+              libraries like the p5.js library.
+            </p>            
+          </td>
+        </tr>
+        <tr>
+          <td class="td_alignment"></td>
+          <td class="td_alignment">
+            <button type="submit" onclick="openHref('section1')" class="page_link_button">Project</button>
+          </td>
+        </tr>
+        <tr>
+          <th>
+            <h2>Learn HTML</h2>
+          </th>
+          <th>
+            <h2>Learn p5.js</h2>
+          </th>
+        </tr>
+        <tr>
+          <td style="vertical-align: top">
+            <p>
+              This module teaches how to create elements and structuring them
+              with attributes, tables, forms, and semantic HTML in order to
+              create a clear front end. HTML and CSS are important languages
+              that are complementary to JS. This was the most significant aspect
+              of the course for me. I was able to learn how to use HTML/CSS in
+              order to combine it with JS to create an appealing front end to a
+              project, but also a robust back end, helping me create more
+              meaningful, structured and complex projects. In this era where the
+              internet and web are very impactful, having the knowledge of
+              HTML/CSS is second to none. I can continue to improve my learning
+              by creating complex projects that require a front and back end,
+              but also continuing my education by using websites like W3Schools
+              and StackOverflow.
+            </p>
+          </td>
+          <td style="vertical-align: top">
+            <p>
+              This module demonstrates the importance of creative coding with
+              animations, interactions and media. The most impactful part of
+              this module for me was to be able to combine all of these aspects
+              together in order to start creating more complexly structured
+              programs. It was the first time I was able to experience creating
+              a program that was dynamic and offered a more complex visual
+              aspect. I was then able to incorporate this knowledge into other
+              modules like the creative computation art show, combining these
+              visual aspects with object oriented code, but most notably the
+              hackathon where my group made a musical reaction game with moving
+              notes, combining coherently many complex aspects of object
+              oriented code and this module. Also, it enabled me to use the
+              p5.js library which expanded my coding knowledge and proved to be
+              useful in future projects. I can continue to learn from this module
+              by pushing myself to create more complex game models in my free
+              time, post secondary or even try to pursue game development as a
+              career. This will force me to visit third party educational
+              websites like W3Schools and StackOverflow, and also to use
+              debugging software when dealing with complex code.
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <td class="td_alignment">
+            <button type="submit" onclick="openHref('section2')" class="page_link_button">Project</button>
+          </td>
+          <td class="td_alignment">
+            <button type="submit" onclick="openHref('section3')" class="page_link_button">Project</button>
+          </td>
+        </tr>
+        <tr>
+          <th>
+            <h2>Natural Simulations</h2>
+          </th>
+          <th>
+            <h2>Hackathon + GitHub</h2>
+          </th>
+        </tr>
+        <tr>
+          <td style="vertical-align: top">
+            <p>
+              This module focuses on creating natural simulations in CS by
+              combining many math concepts that are found in nature like
+              randomness, noise, vectors, forces, angular movement, oscillations
+              and particle systems. The biggest impact this course had on me was
+              the integration of mathematical concepts while programming.
+              Concepts, such as trigonometry and vectors are important in this
+              simulation because of their ability to control the magnitude or
+              direction of an object or the ability to predict the outcome of an
+              object's location. In general, this course is very useful to be
+              able to learn different ways of simulating an object from nature
+              by having information about what it does. This is something that
+              can be used in everyday life and far more observable on
+              simulations that were made with code making the need for
+              simulation very necessary. I can continue to use this to learn as
+              a student because I can now use math and nature in order to create
+              a computer science program which I can now create programs with
+              simulations and I can continue to combine different subjects
+              together in order to create a simulation by using computer science
+              as a tool. I can also read Dan Shiffman’s book “The Nature of
+              Code” to expand my knowledge from this course.
+            </p>
+          </td>
+          <td style="vertical-align: top">
+            <p>
+              The Hackathon was an eye opening project where it was possible to
+              work in a group and bounce ideas off each other. We were able to
+              create a program that was functional and that was geared to the UN
+              goal of education which showed us that we are capable of a
+              Hackathon and that we can make projects that can be further
+              developed because of object oriented programming. It helped us to
+              be able to communicate with each other and it helped us solve
+              problems that we may have had by evaluating all of our options and
+              everyone's ideas to see what is best. We were able to incorporate
+              object oriented programming in this project very efficiently,
+              because in our project we had music notes playing, in which they
+              all had different functions and speed. Object oriented was
+              important here because we could expand the music notes which gave
+              them different functions. It also introduced us to back end
+              programming and how we could have improved the program, by giving
+              further statistics to the user in order to learn how to improve
+              their score. We could have done this by storing the information in
+              an array, then by creating a table or graph in order to
+              demonstrate the progress. It can help me to continue to learn as a
+              student because now I have the capabilities to work in a group and
+              collaborate, which is very useful for computer science in
+              university or at a real job or in any subject in general. I can
+              also continue to integrate different aspects of code and combine
+              them together with object oriented design which was useful in the
+              next live coding challenge project but will also be necessary in
+              other projects that I may want to pursue after this class.
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <td class="td_alignment">
+            <button type="submit" onclick="openHref('section4')" class="page_link_button">Project</button>
+          </td>
+          <td class="td_alignment">
+            <button type="submit" onclick="openHref('section5')" class="page_link_button">Project</button>
+          </td>
+        </tr>
+        <tr>
+          <th>
+            <h2>
+              Live Coding Challenge + Code Along Example + Computation Art Show
+            </h2>
+          </th>
+          <th>
+            <h2>Learn SQL</h2>
+          </th>
+        </tr>
+        <tr>
+          <td style="vertical-align: top">
+            <p>
+              The most significant impact this module had on me was to be able
+              to take someone else’s code and be able to understand what each
+              line of the code meant and to be able to explain it to someone
+              else in order for them to understand. Also the code refactoring
+              showed me how to add onto someone else’s code without starting
+              from scratch, and finishing what they have begun. I think that the
+              most important part of this project was utilizing object oriented
+              code, because in both of my creative refactorings for the live
+              coding challenge and the computation art show, I was able to add
+              more features from the classes that I created which contained
+              certain characteristics. This code could then be easily given to
+              someone else to change because the way classes contain
+              characteristics, those characteristics could easily be added on or
+              new characteristics could be created passing them down to more and
+              more people to change. I think the main way I can continue to
+              learn computer science from this is that it has given me the
+              ability to create multiple refactorings and improve my abilities
+              with each project and to continue to always improve my projects.
+              It will also help when transitioning into a real job where code
+              will be passed down from different people and I will need to add
+              new features, or debug the code.
+            </p>
+          </td>
+          <td style="vertical-align: top">
+            <p>
+              This module teaches SQL by showing the aspects of manipulation,
+              queries, aggregate functions, and how to create multiple tables.
+              Queries were the most impactful part of this module as queries are
+              the most important aspect of SQL, as it is what helps you sort
+              through a table and filter a specific data that you want to
+              examine. They are also important to store and update database
+              information such as INSERT and UPDATE commands, which is very
+              important for back end development and needs to have an embedded
+              database, in order to be able to filter via the SELECT command
+              through the information and give the computer enough information
+              in order to provide a suitable front end page for the user to be
+              able to process. Without SQL it would be very time consuming to
+              filter, store and update tables and databases, because there would
+              be no way of selecting all of the data types that you are looking
+              for and filtering or changing them at once. It will help me to
+              improve my learning of computer science, because now I will be
+              able to understand and use different flavours of SQL, like
+              PostgreSQL, MySql T-Sql. SQL syntax is 95% common for those
+              flavours and about 5% syntax is flavour specific.
+            </p>   
+          </td>
+        </tr>
+        <tr>
+          <td class="td_alignment">
+            <button type="submit" onclick="openHref('section6')" class="page_link_button">Project</button>
+          </td>
+          <td class="td_alignment">
+            <button type="submit" onclick="openHref('section8')" class="page_link_button">Project</button>
+          </td>
+        </tr>
+        <tr>
+          <th>
+            <h2>
+              AP®︎/College Computer Science Principles Computer Innovation +
+              Internet
+            </h2>
+          </th>
+          <th>
+            <h2>
+              AP®︎/College Computer Science Principles Data Analysis +
+              Simulations + Online Data Security
+            </h2>
+          </th>
+        </tr>
+        <tr>
+          <td style="vertical-align: top">
+            <p>
+              This module shows the relation between the internet and computer
+              innovation. It demonstrates how both can help improve one another
+              and depend on each other. The computer innovations part showed
+              innovations in communication, collaboration, crowdsourcing and
+              monitoring, whereas the internet showed aspects like connecting
+              networks, addressing the internet, routing with redundancy,
+              transporting packets, web protocols, scalable systems, the
+              internet protocol suite, open protocol development and the digital
+              divide. The digital divide is the most impactful aspect, because
+              it shows the socioeconomic divide that this world has for the
+              access of technology to digital education. Some of the factors
+              that affect this are different age groups, races, geographical
+              locations, economical backgrounds or education opportunities.
+              Without giving everyone an equal opportunity, it is impossible to
+              develop computer innovation and the internet to the fullest extent
+              because not everyone that can be impactful will have the
+              opportunity of contributing the innovation or testing it. I can
+              continue to learn by staying current in the industry and taking
+              note of emerging technologies in order to utilise them in my
+              projects.
+            </p>
+          </td>
+          <td style="vertical-align: top">
+            <p>
+              This module teaches how with the use of data analysis, simulations
+              and online data security can be strongly developed by continuing
+              to innovate. The most impactful part of this module was that it
+              showed me how useful just something like data could be,
+              especially, when collected accurately, and used effectively
+              through analysis and simulations. It was interesting to see the
+              aspects of data tools, big data, and how there are even biases in
+              computer technologies like machine learning. I liked how the
+              negative parts of technologies like machine learning were shown
+              because the data that is given could not be diverse enough
+              creating bias. Furthermore, when this data is used effectively
+              technologies like facial recognition or COVID-19 caes, deaths and
+              hospitalizations simulations could be created. I can continue to
+              learn by creating large scale projects that are used from a
+              database that was collected and filter through the data with a
+              language like SQL, even by doing further research on the
+              importance of information or applying more mathematical concepts
+              in my program, such as trends and correlations to source through
+              data effectively.
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <td class="td_alignment"></td>
+          <td class="td_alignment"></td>
+        </tr>
+      </table>
+    </div>
+
+    <div id="ProjectsTab" class="tabcontent">
+      <h1 class="underlined">2022 Projects</h1>
+      
+      <div id="section1">
+        <h2 style="text-align: left">Learn JavaScript Project: Team Stats</h2>
+        <script src="https://gist.github.com/codecademydev/cc133b9ccd967ade6087277a39c26264.js"></script>
+      </div>
+      
+      <br />
+      <div id="section2">
+        <h2  style="text-align: left">Learn HTML Project: New York City Blog</h2>
+        <script src="https://gist.github.com/codecademydev/a5328949c671d05438be02850199e51b.js"></script>
+      </div>
+      
+      <br />
+      <div id="section3">
+        <h2 style="text-align: left">Learn p5.js Project: Interactive Video Sculpture</h2>
+        <script src="https://gist.github.com/codecademydev/255cf16036dff893fd42480f7f040139.js"></script>
+      </div>
+
+      <br/>
+      <p id="section4">
+        <h2 style="text-align: left">Natural Simulations Project: Creature Colonies</h2>
+        <script src="https://www.khanacademy.org/computer-programming/spin-off-of-project-creature-colonies/5216048006610944/embed.js?editor=yes&buttons=yes&author=yes&embed=yes"></script>
+      </p>
+      
+      <br/>
+      <p id="section5">
+        <h2 style="text-align: left">Hackathon</h2>
+        <div class="glitch-embed-wrap" style="height: 420px; width: 100%;">
+          <iframe
+            src="https://glitch.com/embed/#!/embed/hackathon-game?path=README.md&previewSize=0"
+            title="hackathon-game on Glitch"
+            allow="geolocation; microphone; camera; midi; encrypted-media; xr-spatial-tracking; fullscreen"
+            allowfullscreen
+            style="height: 100%; width: 100%; border: 0;">
+          </iframe>
+        </div>
+        <a href="https://github.com/jasonzhang2/Hackathon">Learn more</a>
+      </p>
+
+      <br/>
+      <p id="section6">
+        <h2  style="text-align: left">The Live Coding Challenge Creative Refactoring</h2>
+        <div class="glitch-embed-wrap" style="height: 420px; width: 100%;">
+          <iframe
+            src="https://glitch.com/embed/#!/embed/codingtrain?path=README.md&previewSize=0"
+            title="codingtrain on Glitch"
+            allow="geolocation; microphone; camera; midi; encrypted-media; xr-spatial-tracking; fullscreen"
+            allowfullscreen
+            style="height: 100%; width: 100%; border: 0;">
+          </iframe>
+        </div>
+        <a href="https://github.com/338637028/codingtraintictactoe222">Learn more</a>
+      </p>
+
+      <br/>
+      <p id="section7">
+        <h2 style="text-align: left">The Live Coding Challenge Space Invaders Walkthrough</h2>
+        <iframe src="https://editor.p5js.org/smart12/full/azWLk6vx0" height="450" width="650"></iframe>
+        <div>
+          <a href="https://editor.p5js.org/smart12/sketches/azWLk6vx0">Learn more</a>
+        </div>
+      </p>
+        
+      <br/>
+      <p>
+        <h2 style="text-align: left">The Creative Computation Art Show</h2>
+        <iframe src="https://editor.p5js.org/smart12/full/2_kXBxfk4" height="600" width="450"></iframe>
+        <div>
+          <a href="https://editor.p5js.org/smart12/sketches/2_kXBxfk4">Learn more</a>
+        </div>
+      </p>
+
+      <br/>
+      <p id="section8">
+        <h2  style="text-align: left">Learn SQL Project: Lyft Trip Data</h2>
+        <script src="https://gist.github.com/codecademydev/0865b5e11d4e60af6d71d589549a759c.js"></script>
+      </p>
+    </div>
+
+    <script>
+      function openTab(evt, tabName) {
+        var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+          tabcontent[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("tablinks");
+        for (i = 0; i < tablinks.length; i++) {
+          tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+        document.getElementById(tabName).style.display = "block";
+        evt.currentTarget.className += " active";
+      }
+      
+      function openHref(ref) {       
+        openTab(event, 'ProjectsTab');
+        window.location.href = document.getElementById('ref').href;
+      }
+      
+      // Get the element with id="defaultOpen" and click on it
+      document.getElementById("defaultOpen").click();
+    </script>
+  </body>
+</html>
+
+
